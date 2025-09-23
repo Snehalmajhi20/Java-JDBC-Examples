@@ -6,8 +6,8 @@ import java.sql.Statement;
 public class Test_03 {
     public static void main(String[] args) {
         String url ="jdbc:mysql://localhost:3306/emp";
-        String username = "root";
-        String password = "1220";
+        String username = "";
+        String password = "";
         String query = "insert into student(id, name, job, salary) values(5, 'Amlan Dash', 'Government', 35000)";
 
         try{
