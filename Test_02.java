@@ -4,8 +4,8 @@ class Test_02
     public static void main(String[] args)
     {
         String url = "jdbc:mysql://localhost:3306/emp";
-        String username = "root";
-        String password ="1220";
+        String username = "";
+        String password ="";
         String query = "select * from student";
 
         try {
