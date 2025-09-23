@@ -5,8 +5,8 @@ import java.sql.Statement;
 public class Test_04 {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/emp";
-        String username = "root";
-        String password = "1220";
+        String username = "";
+        String password = "";
         String query = "delete from student where id = 5";
         try{
             Class.forName("com.mysql.jdbc.Driver");
