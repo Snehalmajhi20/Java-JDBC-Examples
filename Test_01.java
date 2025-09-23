@@ -4,8 +4,8 @@ import java.sql.*;
 public class Test_01 {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/emp";
-        String username = "root";
-        String password = "1220";
+        String username = "";
+        String password = "";
         try{
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Driver load Sucessfully!");
