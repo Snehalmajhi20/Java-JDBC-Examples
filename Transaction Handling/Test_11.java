@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Test_11 {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/emp";
-        String username = "root";
-        String password = "1220";
+        String username = "";
+        String password = "";
         String withdrawQuery = "UPDATE accounts SET balance = balance - ? WHERE account_number = ?";
         String depositQuery = "UPDATE accounts SET balance = balance + ? WHERE account_number = ?";
 
